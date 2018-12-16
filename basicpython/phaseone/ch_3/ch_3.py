@@ -1,0 +1,45 @@
+# This chapter talks about lists
+alphabet=[ "a","b","c","d","e","f","etc"]
+print(alphabet)
+print(alphabet[0].title())
+print(alphabet[-1])
+message="I have "+ alphabet[0] + " goat."
+print("I have "+ alphabet[0] + " goat.")
+shopping=["fish","eggs","tea","fene","dodo"]
+print(shopping)
+shopping[0]="windows"
+print(shopping)
+shopping.append("fish")
+print(shopping)
+shopping=[]
+shopping.append("fish")
+shopping.append("eggs")
+shopping.append("tea")
+shopping.append("fene")
+shopping.append("dodo")
+print(shopping)
+shopping.insert(2,"windows")
+print(shopping)
+del shopping[-1]
+print(shopping)
+shopping_new= shopping.pop()
+print(shopping)
+print(shopping_new)
+print("The last fruit I ate was "+ shopping_new.title() + ".")
+misplaced="windows"
+shopping.remove(misplaced)
+print(shopping)
+print( misplaced + " are not bought at the market.")
+print(shopping[1])
+shopping.sort()
+print(shopping)
+shopping.sort(reverse=True)
+print(shopping)
+shopping.sort()
+print(shopping)
+print("Here is the original list:")
+print(shopping)
+print("Here is the new list:")
+print(sorted(shopping))
+len(shopping)
+print(len(shopping))
