@@ -5,3 +5,4 @@ message3= "Have you practiced??"
 print(message1.upper())
 print(message2.upper())
 print(message3.upper())
+print(message3.upper())
